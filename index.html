@@ -1,74 +1,58 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colégio Helena</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arquitetura ao Redor do Mundo</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="Logo.png" alt="Logo">
-            </div>
-            <ul class="menu">
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">Quem Somos</a></li>
-                <li class="dropdown">
-                    <a href="#">Cursos</a>
-                    <ul class="dropdown-content">
-                        <li><a href="#">Desenvolvimento de Sistemas</a></li>
-                        <li><a href="#">Formação de Docentes</a></li>
-                        <li><a href="#">Química para Empresas</a></li>
-                        <li><a href="#">Ensino Regular</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Contatos</a></li>
-            </ul>
-            <div class="social-links">
-                <img src="instagram1.png" href="https://www.instagram.com" target="_blank" alt="Instagram"></a>
-                <img src="facebook1.png" href="https://www.facebook.com" target="_blank"alt="Facebook"></a>
-            </div>
-        </nav>
+        <div class="container">
+            <h1>Arquitetura ao Redor do Mundo</h1>
+            <nav>
+                <ul>
+                    <li><a href="#intro">Introdução</a></li>
+                    <li><a href="#famous-buildings">Construções Famosas</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
-    <div class="carousel">
-        <div class="carousel-images">
-            <img src="01.png" alt="Imagem 1">
-            <img src="2.png" alt="Imagem 2">
-            <img src="3.png" alt="Imagem 3">
+
+    <section id="intro">
+        <div class="container">
+            <h2>Explorando as Maravilhas Arquitetônicas do Mundo</h2>
+            <p>A arquitetura é uma expressão cultural e um reflexo da sociedade. As construções icônicas ao redor do mundo demonstram a engenhosidade e a criatividade humana. Vamos conhecer algumas das mais impressionantes e emblemáticas construções da história da arquitetura.</p>
         </div>
-        <button class="prev" onclick="moveCarousel(-1)">&#10094;</button>
-        <button class="next" onclick="moveCarousel(1)">&#10095;</button>
-    </div>
+    </section>
 
-    
-        <div class="carousel-images">
-            <img src="RODAPE.png" alt="Imagem 1">
-            <img src="2.png" alt="Imagem 2">
-            <img src="3.png" alt="Imagem 3">
+    <section id="famous-buildings">
+        <div class="container">
+            <h2>Construções Icônicas</h2>
+            <div class="building">
+                <img src="https://source.unsplash.com/1600x900/?eiffel-tower" alt="Torre Eiffel">
+                <h3>Torre Eiffel - Paris, França</h3>
+                <p>Uma das mais famosas estruturas do mundo, símbolo da cidade de Paris e um marco da engenharia do século XIX.</p>
+            </div>
+            <div class="building">
+                <img src="https://source.unsplash.com/1600x900/?colosseum" alt="Coliseu">
+                <h3>Coliseu - Roma, Itália</h3>
+                <p>Uma das maiores construções da Roma Antiga, um símbolo da resistência e grandiosidade do Império Romano.</p>
+            </div>
+            <div class="building">
+                <img src="https://source.unsplash.com/1600x900/?burj-khalifa" alt="Burj Khalifa">
+                <h3>Burj Khalifa - Dubai, Emirados Árabes Unidos</h3>
+                <p>Atualmente o edifício mais alto do mundo, representando a inovação arquitetônica do século XXI.</p>
+            </div>
         </div>
-        <button class="prev" onclick="moveCarousel(-1)">&#10094;</button>
-        <button class="next" onclick="moveCarousel(1)">&#10095;</button>
-    </div>
+    </section>
 
-</div>
-<script src="script.js"></script>
-
-<!--Seção rodapé é a parte final da paragrafo 3 da página-->
-<footer class="escola">
-    <img class="logo_rodape" src="Logo.png" alt="Logo
-    da Escola">
-    <h2 class="escola-título">Mais informações entre em contato<a
-    class="link" href="https://wa.me/5541999999999"> 41 1196460-9279
-    </a></h2>
-    <p></p>
-    <p>©2024 | Curso de ADS | Todos os Direitos Reservados.
-    Política de Privacidade | Proteção de dados | Encarregado de
-    
-    dados</p>
-    <p> </p>
+    <footer id="contact">
+        <div class="container">
+            <p>Contato: <a href="mailto:contato@arquitetura.com">contato@arquitetura.com</a></p>
+        </div>
     </footer>
-    </body>
-    </html>
+</body>
+</html>
